@@ -1,5 +1,5 @@
 FROM centos:7.2.1511
-RUN yum install -y tcsh epel-release
-    && yum -y install scons gcc-c++ gcc-gfortran mariadb mariadb-devel mariadb-libs libX11-devel mesa-libGLU-devel libXt-devel libXmu-devel libXrender-devel expat-devel libXpm-devel libXft-devel libAfterImage libAfterImage-devel libXi
+RUN yum install -y tcsh epel-release \
+    && yum -y install scons gcc-c++ gcc-gfortran mariadb mariadb-devel mariadb-libs libX11-devel mesa-libGLU-devel libXt-devel libXmu-devel libXrender-devel expat-devel libXpm-devel libXft-devel libAfterImage libAfterImage-devel libXi \
     && yum -y install cmake wget subvesion git make file xorg-x11-fonts-Type1 mesa-dri-drivers xkeyboard-config
 
