@@ -1,3 +1,4 @@
 FROM centos:7.2.1511
 
-RUN yum install -y tcsh 
+RUN yum install -y tcsh epel-release 
+
